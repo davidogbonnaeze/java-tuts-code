@@ -25,7 +25,7 @@ public class HeartRatesApp {
         int MyMaxHeartRate=yourHeartRates.maxHeartRate(MyAge);
         double[] MyTargetHeartRate = yourHeartRates.targetHeartRate(MyMaxHeartRate);
         String mytargetheartrate = (Arrays.toString(MyTargetHeartRate));
-        System.out.printf("Welcome to Ernest David Clinic.\n Hello there %s %s ,Here's your medical report.\n Age:%d \n Maximum Heart Rate:%d\nTarget Heart Rate Range:%01d to %02d", firstname,lastname,MyAge,MyMaxHeartRate,mytargetheartrate );
+        System.out.printf("Welcome to Ernest David Clinic.\n Hello there %s %s ,Here's your medical report.\n Age:%d \n Maximum Heart Rate:%d\nTarget Heart Rate Range:%s", firstname,lastname,MyAge,MyMaxHeartRate,mytargetheartrate );
              
         
     }
